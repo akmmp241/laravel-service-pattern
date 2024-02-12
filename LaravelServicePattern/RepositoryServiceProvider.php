@@ -178,6 +178,7 @@ class RepositoryServiceProvider extends ServiceProvider
     {
 
         $repositories = collect([]);
+
         $repositoryDirectory = $this->getRepositoryPath();
         $files = $this->files->files($repositoryDirectory);
         if (is_array($files)) {

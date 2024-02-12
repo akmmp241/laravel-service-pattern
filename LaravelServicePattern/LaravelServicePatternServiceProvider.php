@@ -41,7 +41,7 @@ class LaravelServicePatternServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('laravel-easy-repository')
+            ->name('laravel-service-pattern')
             ->hasConfigFile()
             ->hasCommand(MakeRepository::class)
             ->hasCommand(MakeService::class);

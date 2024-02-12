@@ -11,6 +11,6 @@ class LaravelServicePatternFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'laravel-easy-repository';
+        return 'laravel-service-pattern';
     }
 }

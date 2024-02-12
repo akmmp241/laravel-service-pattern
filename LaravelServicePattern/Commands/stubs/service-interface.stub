@@ -1,0 +1,10 @@
+<?php
+
+namespace {namespace};
+
+use LaravelServicePattern\BaseService;
+
+interface {serviceInterface} extends BaseService{
+
+    // Write something awesome :)
+}

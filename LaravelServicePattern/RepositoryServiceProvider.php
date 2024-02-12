@@ -176,6 +176,7 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     private function getRepositoryFiles()
     {
+
         $repositories = collect([]);
         $repositoryDirectory = $this->getRepositoryPath();
         $files = $this->files->files($repositoryDirectory);
